@@ -34,5 +34,5 @@
 请求签名请参考 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/%E8%AF%B7%E6%B1%82%E7%AD%BE%E5%90%8D.md)。
 
 
-##错误码
+## 错误码
 请求出错时返回的错误码和对应错误信息请参考[错误码](https://github.com/ccbcloud/cos-api/blob/master/%E9%94%99%E8%AF%AF%E7%A0%81.md)
