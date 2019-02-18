@@ -73,7 +73,7 @@ OPTIONS /<ObjectName> HTTP/1.1
 OPTIONS /coss3/ObjectName HTTP/1.1
 Host: arlenhuangtestsgnoversion-1251668577.cos.wh.ccbcos.com
 Date: Thu, 12 Jan 2017 17:26:53 GMT
-Origin: http://www.qq.com
+Origin: http://www.ccb.com
 Access-Control-Request-Method: PUT
 Authorization: q-sign-algorithm=sha1&q-ak=AKIDDNMEycgLRPI2axw9xa2Hhx87wZ3MqQCn&q-sign-time=1487070734;32466654734&q-key-time=1487070734;32559966734&q-header-list=host&q-url-param-list=&q-signature=2ac3ada19910f44836ae0df72a0ec1003f34324b
 
@@ -87,7 +87,7 @@ Content-Length: 0
 Connection: keep-alive
 Access-Control-Allow-Headers: x-cos-meta-test
 Access-Control-Allow-Methods: PUT
-Access-Control-Allow-Origin: http://www.qq.com
+Access-Control-Allow-Origin: http://www.ccb.com
 Access-Control-Expose-Headers: x-cos-meta-test1
 Access-Control-Max-Age: 500
 Date: Thu, 12 Jan 2017 17:26:53 GMT

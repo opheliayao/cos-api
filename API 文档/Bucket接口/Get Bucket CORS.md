@@ -69,7 +69,7 @@ Container 节点 CORSRule 的内容：
 |节点名称（关键字）|父节点|描述|类型|
 |:---|:-- |:--|:--|
 | ID | CORSConfiguration.CORSRule | 配置规则的 ID，可选填|  String |
-| AllowedOrigin | CORSConfiguration.CORSRule | 允许的访问来源，支持通配符 * </br>格式为：协议://域名[:端口]如：`http://www.qq.com` |String |
+| AllowedOrigin | CORSConfiguration.CORSRule | 允许的访问来源，支持通配符 * </br>格式为：协议://域名[:端口]如：`http://www.ccb.com` |String |
 | AllowedMethod | CORSConfiguration.CORSRule | 允许的 HTTP 操作，枚举值：GET，PUT，HEAD，POST，DELETE | Enum |
 | AllowedHeader | CORSConfiguration.CORSRule | 在发送 OPTIONS 请求时告知服务端，接下来的请求可以使用哪些自定义的 HTTP 请求头部，支持通配符 * |  String |
 | MaxAgeSeconds | CORSConfiguration.CORSRule | 设置 OPTIONS 请求得到结果的有效期 | Integer |
@@ -98,7 +98,7 @@ x-cos-request-id: NTg4MDdlNGZfNDYyMDRlXzM0YWFfZTBh
 <CORSConfiguration> 
   <CORSRule> 
     <ID>1234</ID>  
-    <AllowedOrigin>http://www.qq.com</AllowedOrigin>  
+    <AllowedOrigin>http://www.ccb.com</AllowedOrigin>  
     <AllowedMethod>PUT</AllowedMethod>  
     <AllowedHeader>x-cos-meta-test</AllowedHeader>  
     <ExposeHeader>x-cos-meta-test1</ExposeHeader>  

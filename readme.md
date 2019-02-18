@@ -15,7 +15,7 @@
 | SecretKey   | SecretKey 是开发者拥有的项目身份密钥。                 |
 | Bucket      | 存储桶是 COS 中用于存储数据的容器，是用户存储在 Appid 下的第一级目录，每个对象都存储在一个存储桶中。 |
 | Object      | 对象是 COS 中存储的具体文件，是存储的基本实体。               |
-| Region      | 域名中的地域信息，枚举值：cn-east（华东），cn-north（华北），cn-south（华南），sg（新加坡） |
+| Region      | 域名中的地域信息，枚举值：wh（武汉） |
 
 ## 快速入门
 
