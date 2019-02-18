@@ -124,7 +124,7 @@ Connection: keep-alive
 Accept-Encoding: gzip, deflate
 Accept: */*
 User-Agent: python-requests/2.12.4
-Host: xxxx-123456.cos.ap-guangzhou.myqcloud.com
+Host: xxxx-123456.cos.wh.ccbcos.com
 Content-Length: 1352
 Content-Type: multipart/form-data; boundary=e07f2a7876ae4755ae18d300807ad879
 
@@ -175,12 +175,12 @@ Content-Length: 232
 Connection: keep-alive
 Date: Mon, 11 Dec 2017 09:16:56 GMT
 ETag: "d41d8cd98f00b204e9800998ecf8427e"
-Location: http://xxxx-123456.cos.ap-guangzhou.myqcloud.com/a/empty:a
+Location: http://xxxx-123456.cos.wh.ccbcos.com/a/empty:a
 Server: ccb-cos
 x-cos-request-id: NWEyZTRkMDZfMjQ4OGY3MGFfNTE4Yl81
 
 <PostResponse>
-        <Location>http://xxxx-123456.cos.ap-guangzhou.myqcloud.com/a/empty:a</Location>
+        <Location>http://xxxx-123456.cos.wh.ccbcos.com/a/empty:a</Location>
         <Bucket>xxxx-123456</Bucket>
         <Key>a/empty:a</Key>
         <ETag>d41d8cd98f00b204e9800998ecf8427e</ETag>

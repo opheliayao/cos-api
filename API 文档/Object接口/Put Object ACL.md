@@ -6,7 +6,7 @@ PUT Object acl 接口用来对某个 Bucket 中的某个的 Object 进行 ACL �
 语法示例：
 ```
 PUT /ObjectName?acl HTTP/1.1
-Host: <BucketName>-<APPID>.cos.<Region>.myqcloud.com
+Host: <BucketName>-<APPID>.cos.<Region>.ccbcos.com
 Date: GMT Date
 Content-Type: application/xml
 Content-MD5: MD5
@@ -128,7 +128,7 @@ Container 节点 Grantee 的内容：<style  rel="stylesheet"> table th:nth-of-t
 ### 请求
 ```
 PUT /ObjectName?acl HTTP/1.1
-Host: arlenhuangtestsgnoversion-1251668577.cos.ap-beijing.myqcloud.com
+Host: arlenhuangtestsgnoversion-1251668577.cos.wh.ccbcos.com
 Date: Fri, 25 Feb 2015 04:10:22 GMT 
 Authorization: q-sign-algorithm=sha1&q-ak=AKIDWtTCBYjM5OwLB9CAwA1Qb2ThTSUjfGFO&q-sign-time=1484724784;32557620784&q-key-time=1484724784;32557620784&q-header-list=host&q-url-param-list=acl&q-signature=785d9075b8154119e6a075713c1b9e56ff0bddfc
 Content-Length: 229

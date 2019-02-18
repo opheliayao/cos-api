@@ -8,7 +8,7 @@ Get Service 接口是用来获取请求者名下的所有存储空间列表（Bu
 语法示例：
 ```
 GET / HTTP/1.1
-Host: service.cos.myqcloud.com
+Host: service.cos.ccbcos.com
 Date: GMT Date
 Authorization: Auth String
 ```
@@ -113,7 +113,7 @@ Container 节点 Bucket 的内容：
 ### 请求
 ```
 GET / HTTP/1.1
-Host: service.cos.myqcloud.com
+Host: service.cos.ccbcos.com
 Date: Thu, 12 Jan 2016 19:12:22 GMT
 Authorization: q-sign-algorithm=sha1&q-ak=AKIDWtTCBYjM5OwLB9CAwA1Qb2ThTSUjfGFO&q-sign-time=1489110340;32468694340&q-key-time=1489110340;32562006340&q-header-list=host&q-url-param-list=&q-signature=cb46d5ce6daed2d3dc0db7130a57193497605620
 ```

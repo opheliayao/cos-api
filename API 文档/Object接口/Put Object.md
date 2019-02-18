@@ -6,7 +6,7 @@ PUT Object 接口请求可以将本地的对象（Object）上传至指定存储
 语法示例：
 ```
 PUT /<ObjectName> HTTP/1.1
-Host: <BucketName-APPID>.cos.<Region>.myqcloud.com
+Host: <BucketName-APPID>.cos.<Region>.ccbcos.com
 Date: GMT Date
 Authorization: Auth String
 ```
@@ -104,7 +104,7 @@ PUT /<ObjectName> HTTP/1.1
 ### 请求
 ```
 PUT /filename.jpg HTTP/1.1
-Host: zuhaotestsgnoversion-1251668577.cos.ap-beijing.myqcloud.com
+Host: zuhaotestsgnoversion-1251668577.cos.wh.ccbcos.com
 Date: Wed, 28 Oct 2015 20:32:00 GMT
 Authorization:q-sign-algorithm=sha1&q-ak=AKIDWtTCBYjM5OwLB9CAwA1Qb2ThTSUjfGFO&q-sign-time=1484639384;32557535384&q-key-time=1484639384;32557535384&q-header-list=host&q-url-param-list=&q-signature=5c07b7c67d56497d9aacb1adc19963135b7d00dc
 Content-Length: 64
