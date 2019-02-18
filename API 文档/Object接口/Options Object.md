@@ -91,7 +91,7 @@ Access-Control-Allow-Origin: http://www.qq.com
 Access-Control-Expose-Headers: x-cos-meta-test1
 Access-Control-Max-Age: 500
 Date: Thu, 12 Jan 2017 17:26:53 GMT
-Server: tencent-cos
+Server: ccb-cos
 x-cos-request-id: NThhMmU2NmZfMmM4OGY3XzZjZGFfMTkzNw==
 
 ```

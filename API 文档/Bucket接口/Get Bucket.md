@@ -151,7 +151,7 @@ Content-Length: 1132
 Connection: keep-alive
 Vary: Accept-Encoding
 Date: Wed, 18 Oct 2014 22:32:00 GMT
-Server: tencent-cos
+Server: ccb-cos
 x-cos-request-id: NTg3NzRjY2VfYmRjMzVfMTc5M182MmIyNg==
 
 <?xml version='1.0' encoding='utf-8' ?>

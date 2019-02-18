@@ -176,7 +176,7 @@ Connection: keep-alive
 Date: Mon, 11 Dec 2017 09:16:56 GMT
 ETag: "d41d8cd98f00b204e9800998ecf8427e"
 Location: http://xxxx-123456.cos.ap-guangzhou.myqcloud.com/a/empty:a
-Server: tencent-cos
+Server: ccb-cos
 x-cos-request-id: NWEyZTRkMDZfMjQ4OGY3MGFfNTE4Yl81
 
 <PostResponse>

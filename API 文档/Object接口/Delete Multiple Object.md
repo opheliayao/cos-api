@@ -176,7 +176,7 @@ Content-Type: application/xml
 Content-Length: 17
 Connection: keep-alive
 Date: Tue, 22 Aug 2017 12:00:48 GMT
-Server: tencent-cos
+Server: ccb-cos
 x-cos-request-id: NTk5YzFjZjBfZWFhZDM1MGFfMjkwZV9lZGM3ZQ==
 
 <DeleteResult/>
@@ -214,7 +214,7 @@ Content-Type: application/xml
 Content-Length: 111
 Connection: keep-alive
 Date: Tue, 22 Aug 2017 12:16:35 GMT
-Server: tencent-cos
+Server: ccb-cos
 x-cos-request-id: NTk5YzIwYTNfMzFhYzM1MGFfMmNmOWZfZWVhNjQ=
 
 <DeleteResult>

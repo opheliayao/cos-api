@@ -127,7 +127,7 @@ Content-Type: application/xml
 Content-Length: 266
 Connection: keep-alive
 Date: Fri, 10 Mar 2016 09:45:46 GMT
-Server: tencent-cos
+Server: ccb-cos
 x-cos-request-id: NTg3NzRiMjVfYmRjMzVfMTViMl82ZGZmNw==
 
 <AccessControlPolicy>

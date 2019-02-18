@@ -72,7 +72,7 @@ Connection: keep-alive
 Date: Thu, 12 Jan 2017 17:26:53 GMT
 ETag: "9a4802d5c99dafe1c04da0a8e7e166bf"
 Last-Modified: Wed, 11 Jan 2017 07:30:07 GMT
-Server: tencent-cos
+Server: ccb-cos
 x-cos-object-type: normal
 x-cos-request-id: NTg3NzRiZGRfYmRjMzVfM2Y2OF81N2YzNA==
 

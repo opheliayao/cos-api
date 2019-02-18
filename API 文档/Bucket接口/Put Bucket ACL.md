@@ -168,7 +168,7 @@ Content-Type: application/xml
 Content-Length: 0
 Connection: keep-alive
 Date: Fri, 25 Feb 2017 04:10:22 GMT 
-Server: tencent-cos
+Server: ccb-cos
 x-cos-request-id: NTg3ZjFjMmJfOWIxZjRlXzZmNDhfMjIw
 
 ```

@@ -70,7 +70,7 @@ Content-Type: application/xml
 Content-Length: 0
 Connection: keep-alive
 Date: Wed, 23 Oct 2016 21:32:00 GMT
-Server: tencent-cos
+Server: ccb-cos
 x-cos-request-id: NTg3ZWRjNjBfOTgxZjRlXzZhYjlfMTg0
 
 ```

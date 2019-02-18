@@ -91,7 +91,7 @@ Content-Length: 0
 Connection: keep-alive
 Date: Wed，18 Jan 2017 16:17:03 GMT
 Etag: "e1e5b4965bc7d30880ed6d226f78a5390f1c09fc"
-Server: tencent-cos
+Server: ccb-cos
 x-cos-request-id: NTg3ZjI0NzlfOWIxZjRlXzZmNGJfMWYy
 
 ```
