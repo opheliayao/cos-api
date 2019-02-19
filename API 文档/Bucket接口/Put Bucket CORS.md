@@ -18,7 +18,7 @@ Authorization: Auth String
 
 <XML file>
 ```
-> Authorization: Auth String (详细参见 [访问控制](http://tcecqpoc.fsphere.cn/document/product/436/7778) 章节)
+> Authorization: Auth String (详细参见 [访问控制](../../请求签名.md) 章节)
 
 ### 请求行
 ~~~
@@ -28,7 +28,7 @@ PUT /?cors HTTP/1.1
 ### 请求头
 
 **公共头部**
-该请求操作的实现使用公共请求头，了解公共请求头详细请参见 [公共请求头部](http://tcecqpoc.fsphere.cn/document/product/436/7728) 章节。
+该请求操作的实现使用公共请求头，了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
 
 **非公共头部**
 该请求操作的实现需要用帯 Content-MD5 的请求头来验证消息的完整性，具体内容如下：
@@ -88,7 +88,7 @@ Container 节点 CORSRule 的内容：
 
 ### 响应头
 #### 公共响应头
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 ### 响应体

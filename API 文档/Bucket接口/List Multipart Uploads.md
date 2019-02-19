@@ -13,7 +13,7 @@ Date: GMT Date
 Authorization: Auth String
 ```
 
-> Authorization: Auth String (详细参见 [请求签名](http://tcecqpoc.fsphere.cn/document/product/436/7778) 章节)
+> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
 
 ### 请求行
 ```
@@ -40,7 +40,7 @@ GET /?uploads&delimiter=Delimiter&encoding-type=EncodingType&prefix=Prefix&max-u
 ### 请求头
 
 #### 公共头部
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](http://tcecqpoc.fsphere.cn/document/product/436/7728) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
 
 #### 非公共头部
 该请求操作无特殊的请求头部信息。
@@ -52,7 +52,7 @@ GET /?uploads&delimiter=Delimiter&encoding-type=EncodingType&prefix=Prefix&max-u
 
 ### 响应头
 #### 公共响应头 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 
@@ -146,7 +146,7 @@ Container 节点 CommonPrefixes 的内容：
 | ------------- | ------------------------------------ | ------------- |
 | InvalidArgument | 400 Bad Request |1. max-uploads 必须是整数，且值介于 0~1000 之间，否则返回 InvalidArgument；<br>2. encoding-type 只能取值 url，否则会返回 InvalidArgument | 
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看 [错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730) 文档。
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看 [错误码](../../错误码.md) 文档。
 
 ## 实际案例
 

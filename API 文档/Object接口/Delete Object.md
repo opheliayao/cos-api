@@ -16,7 +16,7 @@ Content-Length: length
 Authorization: Auth String
 ```
 
-> Authorization: Auth String (详细参见 [请求签名](/document/product/436/7778) 章节)
+> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
 
 ### 请求行
 ```
@@ -27,7 +27,7 @@ DELETE /ObjectName HTTP/1.1
 ### 请求头
 
 #### 公共头部
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](http://tcecqpoc.fsphere.cn/document/product/436/7728) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
 
 #### 非公共头部
 该请求操作无特殊的请求头部信息。
@@ -40,7 +40,7 @@ DELETE /ObjectName HTTP/1.1
 
 ### 响应头
 #### 公共响应头 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
 #### 特有响应头
 该请求操作无特殊的响应头。
 
@@ -54,7 +54,7 @@ DELETE /ObjectName HTTP/1.1
 |--|--|--|
 | NoSuchBucket |404 Not Found|Bucket 不存在| 
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看 [错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730) 文档。
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看 [错误码](../../错误码.md) 文档。
 ## 实际案例
 
 ### 请求

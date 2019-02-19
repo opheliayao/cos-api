@@ -13,7 +13,7 @@ Date: GMT Date
 Authorization: Auth String
 ```
 
-> Authorization: Auth String (详细参见 [请求签名](http://tcecqpoc.fsphere.cn/document/product/436/7778) 章节)
+> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
 
 ### 请求行
 ~~~
@@ -24,11 +24,11 @@ PUT / HTTP/1.1
 ### 请求头
 
 **公共头部**
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](http://tcecqpoc.fsphere.cn/document/product/436/7728) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
 
 **非公共头部**
 该请求操作的实现可以用 Put 请求中的 x-cos-acl 头来设置 Bucket 访问权限。目前有三种 Bucket 的访问权限：public-read-write，public-read 和 private。如果不设置，默认为 private 权限。也可以单独明确赋予用户读、写或读写权限。内容如下：
->了解更多 ACL 请求可详细请参见 [Put Bucket ACL](http://tcecqpoc.fsphere.cn/document/product/436/7737) 文档。
+>了解更多 ACL 请求可详细请参见 [Put Bucket ACL](./Put%20Bucket.md) 文档。
 
 |名称|描述|类型|必选|
 |:---|:-- |:--|:--|
@@ -44,7 +44,7 @@ PUT / HTTP/1.1
 
 ### 响应头
 #### 公共响应头
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 ### 响应体
@@ -57,9 +57,9 @@ PUT / HTTP/1.1
 | BucketAlreadyExists |409 Conflict|当请求创建的 Bucket 已经存在，并且请求创建的用户就是拥有者|
 | InvalidBucketName | 400 Bad Request|Bucket 的命名不规范 具体原因可参考 message 的描述|
 | InvalidRequest | 400 Bad Request|Bucket 的命名不规范 具体原因可参考 message 的描述|
-如果 Bucket 设置的 ACL 不正确，也会导致创建 Bucket 失败，同时会返回 “Failed to set access control authority for the bucket” 的错误信息。具体错误原因，可根据返回的错误码参考 [Put Bucket ACL](http://tcecqpoc.fsphere.cn/document/product/436/7737) 相关的文档
+如果 Bucket 设置的 ACL 不正确，也会导致创建 Bucket 失败，同时会返回 “Failed to set access control authority for the bucket” 的错误信息。具体错误原因，可根据返回的错误码参考 [Put Bucket ACL](./Put%20Bucket.md) 相关的文档
 
-获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730) 文档。
+获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](../../错误码.md) 文档。
 
 ## 实际案例
 
