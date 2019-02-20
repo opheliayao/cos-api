@@ -34,7 +34,7 @@ Authorization: Auth String
 
 ```
 
-> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
+> Authorization: Auth String (详细参见 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/请求签名.md) 章节)
 
 ### 请求行
 ```
@@ -45,7 +45,7 @@ POST /?delete HTTP/1.1
 ### 请求头
 
 #### 公共头部
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](https://github.com/ccbcloud/cos-api/blob/master/公共请求头部.md) 章节。
 
 #### 非公共头部
 **必选头部**
@@ -86,7 +86,7 @@ POST /?delete HTTP/1.1
 
 ### 响应头
 #### 公共响应头 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](https://github.com/ccbcloud/cos-api/blob/master/公共响应头部.md) 章节。
 #### 特有响应头
 该请求操作无特殊的响应头。
 
@@ -140,7 +140,7 @@ Container 节点 Error 的内容：
 | InvalidRequest | 400 Bad Request |没有携带必填字段 Content-MD5，同时返回 `“Missing required header for this request: Content-MD5”` 错误信息 | 
 | MalformedXML   | 400 Bad Request |如果请求的 key 的个数，超过了 1000，会返回 MalformedXML 错误，同时返回 `“delete key size is greater than 1000”` | 
 | InvalidDigest  | 400 Bad Request |携带的 Content-MD5 和服务端计算的请求 body 的不一致          | 
-获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](../../错误码.md) 文档。
+获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](https://github.com/ccbcloud/cos-api/blob/master/错误码.md) 文档。
 
 ## 实际案例
 

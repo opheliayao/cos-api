@@ -9,7 +9,7 @@ Host: <BucketName-APPID>.cos.<Region>.ccbcos.com
 Date: GMT Date
 Authorization: Auth String
 ```
-> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
+> Authorization: Auth String (详细参见 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/请求签名.md) 章节)
 
 ### 请求行
 ~~~
@@ -34,7 +34,7 @@ GET /?prefix=[Prefix]&delimiter=[Delimiter]&encoding-type=[EncodingType]&marker=
 
 ### 请求头
 #### 公共头部
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](https://github.com/ccbcloud/cos-api/blob/master/公共请求头部.md) 章节。
 #### 非公共头部
 该请求操作无特殊的请求头部信息。
 
@@ -45,7 +45,7 @@ GET /?prefix=[Prefix]&delimiter=[Delimiter]&encoding-type=[EncodingType]&marker=
 
 ### 响应头
 #### 公共响应头
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](https://github.com/ccbcloud/cos-api/blob/master/公共响应头部.md) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 ### 响应体
@@ -131,7 +131,7 @@ Container 节点 Owner 的内容：
 |InvalidArgument|400 Bad Request|如果max-keys大于1000，则会返回该错误|
 |InvalidURI|400 Bad Request|如果prefix、marker或者delimiter的参数不符合要求（必须小于1024），则会返回该错误|
 
-获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](../../错误码.md) 文档。
+获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](https://github.com/ccbcloud/cos-api/blob/master/错误码.md) 文档。
 
 ## 实际案例
 

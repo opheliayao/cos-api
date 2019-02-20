@@ -17,7 +17,7 @@ Content-Length: Size
 Authorization: Auth String
 ```
 
-> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
+> Authorization: Auth String (详细参见 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/请求签名.md) 章节)
 
 ### 请求行
 ```
@@ -40,7 +40,7 @@ PUT /ObjectName?partNumber=PartNumber&uploadId=UploadId HTTP/1.1
 ### 请求头
 
 #### 公共头部
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](https://github.com/ccbcloud/cos-api/blob/master/公共请求头部.md) 章节。
 
 #### 非公共头部
 **必选头部**
@@ -65,7 +65,7 @@ PUT /ObjectName?partNumber=PartNumber&uploadId=UploadId HTTP/1.1
 
 ### 响应头
 #### 公共响应头 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](https://github.com/ccbcloud/cos-api/blob/master/公共响应头部.md) 章节。
 
 ### 响应体
 该响应的响应体为空。

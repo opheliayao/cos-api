@@ -13,8 +13,8 @@ Date: GMT Date
 Authorization: Auth String
 ```
 
-> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
-> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
+> Authorization: Auth String (详细参见 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/请求签名.md) 章节)
+> Authorization: Auth String (详细参见 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/请求签名.md) 章节)
 
 ### 请求行
 ```
@@ -25,7 +25,7 @@ GET / HTTP/1.1
 ### 请求头
 
 **公共头部**
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](https://github.com/ccbcloud/cos-api/blob/master/公共请求头部.md) 章节。
 **非公共头部**
 该请求操作无特殊的请求头部信息。
 ### 请求体
@@ -35,7 +35,7 @@ GET / HTTP/1.1
 
 ### 响应头
 #### 公共响应头 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](https://github.com/ccbcloud/cos-api/blob/master/公共响应头部.md) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 ### 响应体
@@ -107,7 +107,7 @@ Container 节点 Bucket 的内容：
 |AccessDenied|403 Forbidden|1. 请求中没有用户验证信息（签名为空，即匿名访问）；<br> 2. 用户使用 v4 的签名调用了该接口，同样会返回该错误。|
 
 备注：具体的错误原因可参考返回的 message 进行排查。
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看 [错误码](../../错误码.md) 文档。
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看 [错误码](https://github.com/ccbcloud/cos-api/blob/master/错误码.md) 文档。
 
 ## 实际案例
 

@@ -16,7 +16,7 @@ x-cos-grant-write: id="",id=""
 x-cos-grant-full-control: id="",id=""
 Authorization: Auth String
 ```
-> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
+> Authorization: Auth String (详细参见 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/请求签名.md) 章节)
 
 ### 请求行
 ~~~
@@ -26,7 +26,7 @@ PUT /ObjectName?acl HTTP/1.1
 ### 请求头
 
 **公共头部**
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](https://github.com/ccbcloud/cos-api/blob/master/公共请求头部.md) 章节。
 
 **非公共头部**
 该请求操作的实现可以用 PUT 请求中的 x-cos-acl 头来设置 Object 访问权限。目前 Object 有三种访问权限：public-read-write，public-read 和 private。如果不设置，默认为 private 权限。也可以单独明确赋予用户读、写或读写权限。内容如下：
@@ -106,7 +106,7 @@ Container 节点 Grantee 的内容：<style  rel="stylesheet"> table th:nth-of-t
 
 ### 响应头
 #### 公共响应头
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](https://github.com/ccbcloud/cos-api/blob/master/公共响应头部.md) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 ### 响应体
@@ -122,7 +122,7 @@ Container 节点 Grantee 的内容：<style  rel="stylesheet"> table th:nth-of-t
 |InvalidRequest|400 Bad Request|请求不合法，如果错误描述中显示"header acl and body acl conflict"，那么表示不能头部和 body 都有 acl 参数。|
 |NoSuchBucket|404 Not Found| 如果试图添加的规则所在的 Bucket 不存在，返回该错误码 |
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看 [错误码](../../错误码.md) 文档。
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看 [错误码](https://github.com/ccbcloud/cos-api/blob/master/错误码.md) 文档。
 ## 实际案例
 
 ### 请求

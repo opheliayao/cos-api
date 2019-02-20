@@ -13,7 +13,7 @@ x-cos-copy-source: <Bucketname>-<APPID>.cos.<Region>.ccbcos.com/filepath
 
 ```
 
-> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
+> Authorization: Auth String (详细参见 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/请求签名.md) 章节)
 
 ### 请求行
 
@@ -25,7 +25,7 @@ PUT /destinationObject HTTP/1.1
 ### 请求头
 
 #### 公共头部
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](../../公共请求头部.md) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](https://github.com/ccbcloud/cos-api/blob/master/公共请求头部.md) 章节。
 
 #### 非公共头部
 
@@ -61,7 +61,7 @@ PUT /destinationObject HTTP/1.1
 
 ### 响应头
 #### 公共响应头 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](https://github.com/ccbcloud/cos-api/blob/master/公共响应头部.md) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 
@@ -84,7 +84,7 @@ PUT /destinationObject HTTP/1.1
 
 ### 实际案例
 
-若需要跨帐号复制则需要先设置被复制帐号的 ACL，了解 ACL 详细请参见 [Put Object ACL](./Put%20Object%20ACL.md) 章节。
+若需要跨帐号复制则需要先设置被复制帐号的 ACL，了解 ACL 详细请参见 [Put Object ACL](https://github.com/ccbcloud/cos-api/blob/master/API%20文档/Object接口/Put%20Object%20ACL.md) 章节。
 ### 请求
 ```
 PUT /222.txt HTTP/1.1

@@ -14,7 +14,7 @@ Headers
 Form
 ```
 
-> Signature（详细参见 [请求签名](../../请求签名.md) 章节）
+> Signature（详细参见 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/请求签名.md) 章节）
 
 
 ### 请求头
@@ -28,7 +28,7 @@ Form
 ### 表单字段
 |名称|描述|类型| 必选|
 |:---|:-- |:---|:-- |
-| acl |文件的权限，不填默认继承，详见[Put Object ACL](./Put%20Object%20ACL.md) |String| 否|
+| acl |文件的权限，不填默认继承，详见[Put Object ACL](https://github.com/ccbcloud/cos-api/blob/master/API%20文档/Object接口/Put%20Object%20ACL.md) |String| 否|
 | Cache-Control, Content-Type, Content-Disposition, Content-Encoding, Expires |RFC 2616 中定义的头部，详见[Put Object](./Put%20Object.md) |String| 否|
 | file|文件内容，作为表单的最后一个字段 |String| 是|
 | key |上传后的文件名，使用 **${filename}** 则会进行替换。例如a/b/${filename}，上传文件 a1.txt，那么最终的上传路径就是 a/b/a1.txt |String| 是|
@@ -80,7 +80,7 @@ Form
 ## 响应
 ### 响应头
 #### 公共响应头
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](../../公共响应头部.md) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](https://github.com/ccbcloud/cos-api/blob/master/公共响应头部.md) 章节。
 #### 特有响应头
 该请求操作的响应头具体数据为：
 
@@ -114,7 +114,7 @@ Container 节点 PostResponse 的内容：
 | EntityTooLarge       | 400 Bad Request     |如果添加的文件长度超过5G，会返回 EntityTooLarge，并返回错误信息`“Your proposed upload exceeds the maximum allowed object size”` |
 | InvalidURI           | 400 Bad Request     | 对象 key 长度限制为 850，如果超过 850 会返回 InvalidURI       |
 
-获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](../../错误码.md) 文档。
+获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](https://github.com/ccbcloud/cos-api/blob/master/错误码.md) 文档。
 
 ## 实际案例
 ### 请求
