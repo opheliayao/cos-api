@@ -13,11 +13,7 @@ Date: GMT Date
 Authorization: Auth String
 ```
 
-<<<<<<< HEAD
 > Authorization: Auth String (详细参见 [请求签名](https://github.com/ccbcloud/cos-api/blob/master/请求签名.md) 章节)
-=======
-> Authorization: Auth String (详细参见 [请求签名](../../请求签名.md) 章节)
->>>>>>> bc7b95cbc98dfdf6040fe284fe136ac7b5f6597a
 
 ### 请求行
 ~~~
